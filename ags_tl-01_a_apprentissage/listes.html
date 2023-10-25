@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ags_tl-01_a_apprentissage</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <a id="retourAccueil" href="./index.html">Retour Accueil</a>
+    <div class="contenu">
+        <h2 class="titre-exemple">Les listes</h2>
+        <h3 class="sous-titre">Apparence des puces</h3>
+        <pre>
+            ul {
+                list-style: none;
+            }
+        </pre>
+        <ul id="liste1">
+            <li>Période 1</li>
+            <li>Période 2</li>
+            <li>Période 3</li>
+        </ul>
+
+        <h3 class="sous-titre">Puces en image</h3>
+        <pre>
+            #liste2 li#element1{
+                list-style-image: linear-gradient(to left bottom, red, orange);
+            }
+            
+            #liste2 li#element2{
+                list-style-image: linear-gradient(to left bottom, orange, yellow);
+            }
+            
+            #liste2 li#element3{
+                list-style-image: linear-gradient(to left bottom, green, yellow);
+            }
+        </pre>
+        <ul id="liste2">
+            <li id="element1">Ketchup</li>
+            <li id="element2">Moutarde</li>
+            <li id="element3">Relish</li>
+        </ul>
+    </div>
+    <footer>
+        <p>© Alexis Turcotte</p>
+        <p>Créé dans le câdre du cours création de pages web</p>
+        <p>PMI, Cégep Limoilou</p>
+        <p>10 novembre 2023</p>
+    </footer>
+</body>
+</html>
