@@ -1,0 +1,260 @@
+
+body {
+    background-color: rgb(220, 129, 17);
+}
+
+body#accueil {
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+    border-top: 6px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 300px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+}
+footer p {
+    margin-top: 20px;
+}
+
+#mainTitle {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 20px 70px 20px 70px;
+}
+
+#menuExercices {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 0 40px 0;
+}
+
+#menuExercices div {
+    border-right: 2px solid white;
+}
+
+#menuExercices div#dernierItem {
+    border-right: none;
+}
+
+#menuExercices a {
+    background-color: black;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#menuExercices a:hover {
+    background-color: rgb(57, 98, 203);
+}
+
+div.contenu {
+    background-color: white;
+    border: 2px solid black;
+    margin: 40px 70px 40px 70px;
+    padding: 20px;
+}
+
+div.contenu-secondaire {
+    background-color: blue;
+}
+
+h2.titre-exemple {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h3.sous-titre {
+    border-top: 2px solid black;
+    margin-top: 20px;
+    padding: 40px 0 0 20px;
+    text-transform: uppercase;
+}
+
+#retourAccueil {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px 70px 20px 70px;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#retourAccueil:hover {
+    background-color: rgb(62, 131, 216);
+    color: white;
+}
+
+#menu a {
+    background-color: rgb(220, 129, 17);
+    color: black;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: rgb(62, 131, 216);
+    color: white;
+}
+
+#menu div {
+    border-top: 4px solid white;
+    margin: 0 70px 0 70px;
+    width: 500px;
+}
+
+div#premiereLigne {
+    border: none;
+    margin-top: 40px;
+}
+
+.titre-exemple {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+.sous-titre {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+.titre-en-bleu {
+    color: blue;
+}
+
+#titreEnBleu {
+    color: blue;
+}
+
+#exempleColor {
+    color: green;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+#exempleAlignement {
+    text-align: center;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+#exempleGras {
+    font-weight: bold;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+#exempleItalique {
+    font-style: italic;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+#exempleDecoration {
+    text-decoration: underline;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+#exempleEspacement {
+    letter-spacing: 15px;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+#exempleMajuscule {
+    text-transform: uppercase;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+#exemplePolice {
+    font-family: Verdana, Arial;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+#exempleTaille {
+    font-size: 12px;
+    border: 2px solid hotpink;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+}
+
+img {
+    border: 10px solid black;
+}
+
+#imgMargin {
+    margin: 10px;
+    padding: 10px;
+}
+
+#body {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+#body2 {
+    background-image: url(../images/image1.jpg);
+    height: 400px;
+    width: 400px;
+}
+
+#body3 {
+    background-image: url(../images/image1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+}
+
+#liste1 {
+    list-style: none;
+}
+
+#liste2 li#element1{
+    list-style-image: linear-gradient(to left bottom, red, orange);
+}
+
+#liste2 li#element2{
+    list-style-image: linear-gradient(to left bottom, orange, yellow);
+}
+
+#liste2 li#element3{
+    list-style-image: linear-gradient(to left bottom, green, yellow);
+}
