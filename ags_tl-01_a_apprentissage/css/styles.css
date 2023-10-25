@@ -230,13 +230,13 @@ img {
 }
 
 #body2 {
-    background-image: url(../images/image1.jpg);
+    background-image: url(./images/image1.jpg);
     height: 400px;
     width: 400px;
 }
 
 #body3 {
-    background-image: url(../images/image1.jpg);
+    background-image: url(./images/image1.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     height: 400px;
