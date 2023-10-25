@@ -66,7 +66,6 @@ ul.liste1 {
 }
 
 ul.liste1 li {
-    background: url(../images/bg_liste_li.jpg) 0 0 repeat-x;
     border: 6px solid #5e0d67;
     color: #fff;
     font-size: 18px;
@@ -96,31 +95,31 @@ ul.liste1 li p {
 }
 
 #magic {
-    background-image: url(../images/magicJohnson.jpeg);
+    background-image: url(./images/magicJohnson.jpeg);
     background-size: 275px auto;
     background-repeat: repeat-x;
 }
 
 #kobe {
-    background-image: url(../images/kobeBryant.jpeg);
+    background-image: url(./images/kobeBryant.jpeg);
     background-size: 275px auto;
     background-repeat: repeat-x;
 }
 
 #elgin {
-    background-image: url(../images/elginBaylor.jpeg);
+    background-image: url(./images/elginBaylor.jpeg);
     background-size: 250px auto;
     background-repeat: repeat-x;
 }
 
 #pau {
-    background-image: url(../images/pauGasol.jpeg);
+    background-image: url(./images/pauGasol.jpeg);
     background-size: 275px auto;
     background-repeat: repeat-x;
 }
 
 #shaq {
-    background-image: url(../images/shaqOneal.jpeg);
+    background-image: url(./images/shaqOneal.jpeg);
     background-size: 200px auto;
     background-repeat: repeat-x;
 }
